@@ -2,7 +2,7 @@ require "pry"
 class Anagram
   attr_accessor :name
   def inititalize(word)
-    @word = name
+    @word = word
   end
   
   def match(array) 
